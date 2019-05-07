@@ -1,0 +1,7 @@
+version: '2'
+services:
+  apiserver:
+    restart: always
+    image: your.image.store:5000/services/akka-http-microservice:1.0.0
+    ports:
+      - '8080:8080'
