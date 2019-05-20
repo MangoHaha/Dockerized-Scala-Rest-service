@@ -13,4 +13,5 @@ run `docker run -it -p 8080:8080 scala-app:latest`
 now your docker is up, running a scala service.
 
 You can do the test as following:
+
 curl -X GET 'localhost:8080/filter?id=1&&token=2'
